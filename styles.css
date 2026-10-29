@@ -58,6 +58,9 @@ canvas { width: 100%; height: auto; image-rendering: pixelated; }
 .secondary:hover:not(:disabled) { background: #edf5f0; }
 .preview-hint { font-size: 11px; margin-top: 13px; }
 footer { text-align: center; color: #737f91; font-size: 12px; padding: 28px 0 0; line-height: 1.8; }
+footer a { display: block; margin-top: 8px; color: #386d57; text-underline-offset: 3px; }
+footer a:hover { color: #1c3a2e; }
+footer a:focus-visible { outline: 3px solid #a8d9c1; outline-offset: 3px; border-radius: 4px; }
 
 @media (max-width: 700px) {
   .page { width: min(100% - 32px, 480px); padding-top: 24px; }
