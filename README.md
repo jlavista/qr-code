@@ -1,4 +1,4 @@
-# JustTools - QR Code Generator
+# JustTools / QR Code Generator
 
 100% free, No ads. 100% private, No uploads. No tricks. Just tools.
 
