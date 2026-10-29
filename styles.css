@@ -12,9 +12,11 @@ body { margin: 0; }
 button, input { font: inherit; }
 button { cursor: pointer; }
 .page { width: min(100% - 48px, 1000px); margin: 0 auto; padding: 38px 0 24px; }
-.brand { display: flex; align-items: center; gap: 10px; font-size: 19px; font-weight: 750; letter-spacing: -.5px; }
-.brand-icon { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; background: #233c35; color: #b7f5d3; }
+.brand { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font-size: 19px; font-weight: 750; letter-spacing: -.5px; }
+.brand-icon { display: grid; place-items: center; flex-shrink: 0; width: 34px; height: 34px; border-radius: 10px; background: #233c35; color: #b7f5d3; }
 .brand-icon svg { width: 23px; height: 23px; }
+.brand-note { margin-left: auto; font-size: 9px; letter-spacing: 1.5px; color: #6a7587; }
+.brand-tagline { flex-basis: 100%; margin: 0; font-size: 13px; font-weight: 400; letter-spacing: 0; line-height: 1.7; color: #647085; }
 .intro { margin: 58px 0 36px; }
 .eyebrow, .step { font-size: 11px; font-weight: 750; letter-spacing: 1.8px; color: #526c64; }
 h1 { font-size: clamp(42px, 6vw, 62px); line-height: 1.08; letter-spacing: -2.8px; margin: 18px 0; font-weight: 750; }

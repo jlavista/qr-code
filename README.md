@@ -1,4 +1,6 @@
-# Link to QR
+# JustTools - QR Code Generator
+
+100% free, No ads. 100% private, No uploads. No tricks. Just tools.
 
 A static, browser-only QR code generator for HTTP and HTTPS URLs. Download codes
 as PNG images or scalable SVGs. No backend, build step, API keys, or CDN required.
